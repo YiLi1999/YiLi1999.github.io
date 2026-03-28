@@ -83,7 +83,9 @@ nav ul {
 }
 
 nav ul li a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     padding: 8px 16px;
     color: var(--text-light);
     text-decoration: none;
@@ -91,6 +93,10 @@ nav ul li a {
     border-radius: 20px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+}
+
+nav ul li a .fas, nav ul li a .fab {
+    font-size: 0.85rem;
 }
 
 nav ul li a:hover,
@@ -145,6 +151,13 @@ h1 {
     font-weight: 700;
 }
 
+h1 .fas, h1 .fab {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 10px;
+}
+
 h2 {
     font-size: 1.5rem;
     color: var(--primary);
@@ -167,6 +180,13 @@ h2::before {
     border-radius: 2px;
 }
 
+h2 .fas, h2 .fab {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 10px;
+}
+
 h3 {
     font-size: 1.15rem;
     color: var(--accent);
@@ -174,11 +194,21 @@ h3 {
     font-weight: 600;
 }
 
+h3 .fas, h3 .fab {
+    margin-right: 8px;
+    color: var(--accent);
+}
+
 h4 {
     font-size: 1rem;
     color: var(--text);
     margin: 15px 0 8px;
     font-weight: 600;
+}
+
+h4 .fas, h4 .fab {
+    margin-right: 8px;
+    color: var(--accent);
 }
 
 p {
@@ -786,6 +816,17 @@ a:hover {
     color: var(--primary);
     font-size: 1.1rem;
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.interest-item h4 .fas {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.2rem;
 }
 
 .interest-item p {

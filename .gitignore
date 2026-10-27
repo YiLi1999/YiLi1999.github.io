@@ -1,0 +1,11 @@
+# Supporting documents stay local; only curated website assets are published.
+相关资料/
+【材料】/
+.claude/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Unpublished visualization exports
+/map.html
+/assets/quantum-execution-map.svg

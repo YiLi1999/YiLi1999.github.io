@@ -1,120 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research - Yi Li</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yi Li studies quantum randomness, correlations, measurement incompatibility, and characterization of quantum systems.">
+  <meta name="theme-color" content="#fafaf8">
+  <title>Research · Yi Li</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="nav-container">
-            <a href="index.html" class="site-name"><i class="fas fa-atom"></i> Yi Li</a>
-            <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('active')">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul>
-                <li><a href="index.html"><i class="fas fa-home"></i> About</a></li>
-                <li><a href="research.html" class="active"><i class="fas fa-microscope"></i> Research</a></li>
-                <li><a href="publications.html"><i class="fas fa-book"></i> Publications</a></li>
-                <li><a href="talks.html"><i class="fas fa-chalkboard-teacher"></i> Talks</a></li>
-                <li><a href="cv.html"><i class="fas fa-file-alt"></i> CV</a></li>
-                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main>
-        <section>
-            <h1><i class="fas fa-microscope"></i> Research</h1>
-            <p class="subtitle">My current research focuses on quantum information theory and quantum foundations.</p>
-        </section>
-
-        <!-- Research Interests -->
-        <section>
-            <h2><i class="fas fa-star"></i> Research Interests</h2>
-            <div class="research-grid">
-                <div class="research-card">
-                    <h3><i class="fas fa-dice"></i> Quantum Randomness</h3>
-                    <p>
-                        Investigating the fundamental nature of randomness in quantum mechanics, including randomness certification, expansion, and amplification protocols.
-                    </p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-link"></i> Bell Inequalities & Nonlocality</h3>
-                    <p>
-                        Studying Bell inequalities, quantum nonlocality, and their applications in device-independent quantum information processing.
-                    </p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-shapes"></i> High-Dimensional Quantum Systems</h3>
-                    <p>
-                        Exploring quantum systems with high-dimensional Hilbert spaces, particularly those encoded in orbital angular momentum (OAM) of photons.
-                    </p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-project-diagram"></i> Quantum Steering</h3>
-                    <p>
-                        Investigating quantum steering phenomena and their applications in quantum information tasks, including randomness certification and entanglement verification.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Current Projects -->
-        <section>
-            <h2><i class="fas fa-rocket"></i> Current Projects</h2>
-            <div class="card">
-                <h3><i class="fas fa-flag"></i> NSFC Youth Student Fundamental Research Project</h3>
-                <p><strong><i class="fas fa-user"></i> Role:</strong> Project Host | <strong><i class="fas fa-coins"></i> Funding:</strong> 300,000 ¥</p>
-                <p>
-                    <strong><i class="fas fa-file-signature"></i> Title:</strong> Efficient characterization protocols and applications of multipartite high-dimensional quantum systems
-                </p>
-            </div>
-            <div class="card">
-                <h3><i class="fas fa-flag"></i> CAST Young Talent Support Program</h3>
-                <p><strong><i class="fas fa-user"></i> Role:</strong> Project Host | <strong><i class="fas fa-coins"></i> Funding:</strong> 40,000 ¥</p>
-                <p>
-                    <strong><i class="fas fa-file-signature"></i> Title:</strong> [Project description]
-                </p>
-            </div>
-        </section>
-
-        <!-- Research Visits -->
-        <section>
-            <h2><i class="fas fa-plane-departure"></i> Research Visits</h2>
-            <div class="edu-item">
-                <div class="edu-header">
-                    <h3><i class="fas fa-university"></i> Universität Siegen</h3>
-                    <span>02/2024 - 04/2025</span>
-                </div>
-                <p class="edu-sub"><i class="fas fa-user-tie"></i> Visiting Student in Prof. Otfried Gühne's Group</p>
-                <ul>
-                    <li><i class="fas fa-check"></i> Learning graph states</li>
-                    <li><i class="fas fa-check"></i> Randomness certification</li>
-                    <li><i class="fas fa-check"></i> Error mitigation in quantum systems</li>
-                </ul>
-            </div>
-            <div class="edu-item">
-                <div class="edu-header">
-                    <h3><i class="fas fa-university"></i> USTC</h3>
-                    <span>06/2019 - 08/2019</span>
-                </div>
-                <p class="edu-sub"><i class="fas fa-user-tie"></i> Summer Internship in Prof. Biheng Liu's Group</p>
-                <ul>
-                    <li><i class="fas fa-check"></i> No-go theorem of Bell state discrimination</li>
-                    <li><i class="fas fa-check"></i> High-dimensional magic state distillation</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p><i class="fas fa-code"></i> &copy; 2026 Yi Li. All rights reserved.</p>
-    </footer>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="wordmark" href="index.html" aria-label="Yi Li, home">Yi Li<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">About</a><a href="publications.html">Publications</a><a href="projects.html">Vibe Coding</a><a href="cv.html">CV</a></nav>
+  </div></header>
+  <main id="main">
+<header class="page-heading"><p class="eyebrow">Questions I work on</p><h1>Research</h1><p>What makes quantum outcomes unpredictable, and how can we verify it with limited trust in our devices?</p></header>
+<section class="section"><div class="section-heading"><div class="section-title"><span class="section-index">01</span><h2>Research directions</h2></div></div><div class="research-topics"><div><h3>Quantum randomness</h3><p>Certifying unpredictable outcomes from quantum correlations and measurement incompatibility.</p></div><div><h3>Quantum correlations</h3><p>Understanding steering, Bell nonlocality, and their role in quantum information.</p></div><div><h3>Learning quantum systems</h3><p>Efficient characterization of high-dimensional and multipartite quantum states.</p></div></div></section>
+<section class="section"><div class="section-heading"><div class="section-title"><span class="section-index">02</span><h2>Selected work</h2></div></div><article class="entry"><div class="entry-date">Randomness</div><div><h3>Measurement incompatibility as a resource</h3><p>Identifying the measurement structures that enable certified randomness in steering and Bell scenarios.</p></div></article><article class="entry"><div class="entry-date">Correlations</div><div><h3>Multipartite and high-dimensional systems</h3><p>Using quantum steering to certify randomness beyond the simplest bipartite qubit setting.</p></div></article><article class="entry"><div class="entry-date">Characterization</div><div><h3>Learning more with fewer measurements</h3><p>Efficient tomography and verification for high-dimensional photonic states and multipartite systems.</p></div></article><a class="text-link" href="publications.html">Read the papers ↗</a></section>
+<section class="section"><div class="section-heading"><div class="section-title"><span class="section-index">03</span><h2>Research background</h2></div></div><p>I completed my Ph.D. at Peking University with Qiongyi He, following undergraduate study at Nankai University with Yongnan Li. My research visits include the groups of Otfried Gühne at Siegen and Howard Wiseman at Griffith.</p><a class="text-link" href="cv.html">Education, visits &amp; funding ↗</a></section></main>
+  <footer class="site-footer"><div><span>© 2026 Yi Li</span><span>Quantum information &amp; things I build.</span></div>
+    <a href="mailto:yili@stu.pku.edu.cn">Get in touch <span aria-hidden="true">↗</span></a>
+  </footer>
 </body>
 </html>

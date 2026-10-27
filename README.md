@@ -24,7 +24,7 @@ Add a project article in `projects.html` with a concise description, a real sour
 
 ## Content sources
 
-Profile and CV facts were refreshed in October 2026 from the owner's August 2026 academic CV and supporting materials. Paper metadata and DOI links were checked against publisher pages. The 2026 erratum is linked alongside its original article. The website uses “Quantum information researcher” because a current job title was not specified in the materials.
+Profile and CV facts were refreshed in October 2026 from the owner's August 2026 academic CV and supporting materials. Paper metadata and DOI links were checked against publisher pages. The 2026 erratum is linked alongside its original article. The current role, “Postdoc”, was confirmed by the owner.
 
 The pixel bunny is from [Overleaf Bunny Helper](https://github.com/YiLi1999/overleaf-bunny-helper), MIT licensed; see `assets/bunny-LICENSE.txt`. Project preview panels are illustrative.
 
